@@ -1,0 +1,57 @@
+/* Fade in animation */
+@keyframes fadeup{
+  from{
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading, .main, .footer{
+  animation: fadeup 1s ease;
+}
+
+/* Add hover effect */
+
+#first > ul > li > a{
+  color: #1d3557;
+  font-weight: 500;
+  font-size: 1.08rem;
+  transition: color 0.3s, transform 0.3s;
+}
+#first > ul > li > a:hover{
+  color: #e63946;
+  transform: scale(1.1);
+}
+.review-container {
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.review-container:hover{
+  box-shadow: 0 8px 24px rgb(230, 57, 70, 0.2);
+  transform: translateY(-10px) scale(1.03);
+}
+
+.heading{
+  background: linear-gradient(270deg, #e5ede3, #687f8e, #cedcdd);
+  background-size: 1000% 1000%;
+  animation: gradientBG 10s ease infinite;
+}
+@keyframes gradientBG{
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+}
+#typing-effect {
+  border-right: 2px solid #e63946;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: blink-caret 0.7s step-end infinite;
+}
+@keyframes blink-caret{
+  0%, 100%{border-color: transparent;}
+  50% {border-color: #d10081;}
+}
