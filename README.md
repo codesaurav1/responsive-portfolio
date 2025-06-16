@@ -59,7 +59,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 > **Demo:**  
-> [https://statuesque-mandazi-b4903b.netlify.app/](#) <!-- Replace with your deployed site URL -->
+> [Live Preview Link](https://statuesque-mandazi-b4903b.netlify.app/) <!-- Replace with your deployed site URL -->
 
 ---
 
